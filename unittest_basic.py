@@ -28,9 +28,9 @@ class RomanNumeralConverterTest(unittest.TestCase)
 		"""
 		Verify that the DUT correctly parses Millenia
 
-		It is necessary to prepend all tests with "test", which
-		makes it visible to unittest, allowing it to pick up the 
-		test automatically
+		It is necessary to prepend all tests with "test",
+		making it visible to unittest and allowing it to pick 
+		up the test automatically
 		"""
 		value = RomanNumeralConverter("M")
 		self.assertEquals(value.convert_to_decimal(), 1000)
