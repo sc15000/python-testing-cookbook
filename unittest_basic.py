@@ -15,7 +15,7 @@ class RomanNumeralConverter(object):
 	
 import unittest
 
-class RomanNumeralConverterTest(unittest.TestCase)
+class RomanNumeralConverterTest(unittest.TestCase):
 	"""
 	The TestCase class, inherited from unittest.TestCase within 
 	the unittest module; Python's defacto test framework module.
