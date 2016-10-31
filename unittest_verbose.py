@@ -25,7 +25,7 @@ class RomanNumeralConverterTest(unittest.TestCase):
     """
 
     def test_parsing_millenia(self):
-        """Verify that the DUT correctly parses Millenia
+        """This test will fail, and this docstring will appear on the console during the test
 
         It is necessary to prepend all tests with "test",
         making it visible to unittest and allowing it to pick 
@@ -50,7 +50,7 @@ class RomanNumeralConverterTest(unittest.TestCase):
         self.assertFalse(value.convert_to_decimal() > 0)
     
     def test_no_roman_numeral(self):
-        """Verify that the DUT gracefully rejects empty object
+        """This test will error, and this docstring will appear on the console during the test
         """
         value = RomanNumeralConverter(None)
         self.assertRaises(IndexError, value.convert_to_decimal)
